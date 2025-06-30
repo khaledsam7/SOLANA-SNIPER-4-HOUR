@@ -1,0 +1,15 @@
+# config.py
+
+API_KEY = 'your_api_key_here'
+API_SECRET = 'your_api_secret_here'
+
+PAIR = 'SOL_USD'
+LEVERAGE = 15
+POSITION_SIZE_PERCENTAGE = 15
+STOP_LOSS_PERCENT = 2.9
+
+TP_1_PERCENT = 1.5
+TP_2_PERCENT = 3
+TP_3_PERCENT = 4.5
+
+CHECK_INTERVAL_MINUTES = 15
