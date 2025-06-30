@@ -90,6 +90,7 @@ def run_bot():
 schedule.every(CHECK_INTERVAL_MINUTES).minutes.do(run_bot)
 
 print("🔁 Bot started... running every", CHECK_INTERVAL_MINUTES, "minutes.")
+print("✅ Sniper Bot is running...")
 run_bot()
 
 while True:
